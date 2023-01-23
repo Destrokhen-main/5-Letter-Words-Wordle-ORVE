@@ -1,0 +1,34 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+  gap: 20px
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cell-lett {
+  font-size: 64px;
+  background-color: grey;
+  border-radius: 5px;
+  display: flex;
+
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  background-color: green !important;
+}
+
+.have-letter {
+  background-color: yellow !important;
+}
